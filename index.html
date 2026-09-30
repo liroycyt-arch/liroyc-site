@@ -45,7 +45,7 @@ table{width:100%;border-collapse:collapse}td,th{padding:9px;text-align:right;bor
 <script>
 'use strict';
 /* ===== הגדרת שרת משותף (Firebase) — מלאו 3 ערכים, ראו הוראות בהודעה ===== */
-const CFG={db:'',key:'',admin:''};/* db: https://PROJECT-default-rtdb.firebaseio.com | key: Web API Key | admin: אימייל המנהל (אותיות קטנות) */
+const CFG={db:'https://dddfefdfs-default-rtdb.europe-west1.firebasedatabase.app',key:'AIzaSyB0fd9fI9UoW64R56ugtmPfnEr-CU_z5jM',admin:'liroy.cyt@gmail.com'};/* db: https://PROJECT-default-rtdb.firebaseio.com | key: Web API Key | admin: אימייל המנהל (אותיות קטנות) */
 CFG.db=CFG.db.trim().replace(/\/$/,'');CFG.admin=CFG.admin.trim().toLowerCase();const CON=!!(CFG.db&&CFG.key&&CFG.admin),K5=['links','edits','plugins','sites','pages'];
 const SRC='<!doctype html>'+document.documentElement.outerHTML,H='040c3a4e31f9944d1090257849c9fb24d99539eedd93a800f99aa8801530f88b',$=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],app=$('#app');
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
