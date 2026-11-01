@@ -1,0 +1,8 @@
+{
+  "shop": {
+    ".read": true,
+    "products": {
+      ".write": "auth != null && auth.token.email === 'liroy.cyt@gmail.com'"
+    }
+  }
+}
